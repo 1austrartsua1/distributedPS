@@ -3,7 +3,7 @@
 Implementations for solving least-squares. Master-worker implementations including asynchronous versions.
 
 
-These were run on the Cori cluster using an interactive session. Get an interactive session with 
+These were run on the Cori cluster using an interactive session. You could also use sbatch with an appropriate slurm script. Get an interactive session with 
 ```
 salloc -C gpu -N 1 --ntasks 20 -t 180 --cpus-per-task 1 -A m3898
 ```
