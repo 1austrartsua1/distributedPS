@@ -35,4 +35,8 @@ You need to ensure that the size of the matrix generated will be correct for the
 * parallelGD.py: synchronous accelerated GD using master-worker topology.
 * singleProcPS.py: single threaded implementation to compare results with. 
 
+## To Do
 
+* Implement a differential encoding version of async PS
+* Implement proximal-version of PS
+* Implement baseline federated averaging
